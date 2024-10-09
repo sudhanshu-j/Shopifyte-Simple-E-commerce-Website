@@ -107,7 +107,7 @@ Trendify is a simple yet elegant e-commerce website built using HTML, CSS, and J
 
 - **Clone the repository**:
 
-     - git clone https://github.com/your-repository/trendify.git
+     - git clone https://github.com/your-repository/Trendify---Simple-E-commerce-Website.git
 
 - **Open the project**:
 
