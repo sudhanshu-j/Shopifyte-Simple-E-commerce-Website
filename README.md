@@ -135,6 +135,6 @@ Trendify is a simple yet elegant e-commerce website built using HTML, CSS, and J
 
 - For any inquiries or suggestions, feel free to contact:
 
-    - **Email**: your-email@example.com
+    - **Email**: sudhanshujha164@gmail.com
       
-    - **GitHub**: YourGitHubProfile
+    - **GitHub**: [YourGitHubProfile](https://github.com/sudhanshu-j)
