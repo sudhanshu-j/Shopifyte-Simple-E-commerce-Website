@@ -62,8 +62,8 @@ Trendify is a simple yet elegant e-commerce website built using HTML, CSS, and J
 ## Sections Overview
 
 **1. Home Section**
-Includes a "New Arrivals" banner with a shop button and a featured image.
-This section serves as the introductory part of the website, engaging the user to explore more.
+- Includes a "New Arrivals" banner with a shop button and a featured image.
+- This section serves as the introductory part of the website, engaging the user to explore more.
 
 2. Featured Products Section
 
