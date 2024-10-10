@@ -2,6 +2,10 @@
 
 Shopifyte is a simple yet elegant e-commerce website built using HTML, CSS, and JavaScript. The website features a clean, modern design with different sections to enhance the user experience. Shopifyte is fully responsive, ensuring a smooth shopping experience across all devices. It also includes a hamburger menu for easy navigation on mobile screens.
 
+## Live Demo
+
+[Live Demo](https://tinyurl.com/2s3u8pmv)
+
 ## Table of Contents
 
 - Features
