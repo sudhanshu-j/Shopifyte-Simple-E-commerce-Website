@@ -1,6 +1,6 @@
-## Trendify - Simple E-commerce Website
+## Shopifyte - Simple E-commerce Website
 
-Trendify is a simple yet elegant e-commerce website built using HTML, CSS, and JavaScript. The website features a clean, modern design with different sections to enhance the user experience. Trendify is fully responsive, ensuring a smooth shopping experience across all devices. It also includes a hamburger menu for easy navigation on mobile screens.
+Shopifyte is a simple yet elegant e-commerce website built using HTML, CSS, and JavaScript. The website features a clean, modern design with different sections to enhance the user experience. Shopifyte is fully responsive, ensuring a smooth shopping experience across all devices. It also includes a hamburger menu for easy navigation on mobile screens.
 
 ## Table of Contents
 
@@ -48,7 +48,7 @@ Trendify is a simple yet elegant e-commerce website built using HTML, CSS, and J
 
 ## Project Structure
 
-- **Trendify**/
+- **Shopifyte**/
 - │
 - ├── assets/
 - ├── css/
@@ -107,7 +107,7 @@ Trendify is a simple yet elegant e-commerce website built using HTML, CSS, and J
 
 - **Clone the repository**:
 
-     - git clone https://github.com/your-repository/Trendify---Simple-E-commerce-Website.git
+     - git clone https://github.com/your-repository/Shopifyte---Simple-E-commerce-Website.git
 
 - **Open the project**:
 
