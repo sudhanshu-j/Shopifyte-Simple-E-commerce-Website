@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicon/favicon-48x48.png"
+      sizes="48x48"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Title -->
+    <title>Shopifyte</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <!-- LOGO -->
+          <a href="#" class="nav-logo"> <img src="/logo.png" /> Shopifyte </a>
+        </div>
+
+        <!-- Navigation -->
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <!-- 1 -->
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+
+            <!-- 2 -->
+            <li class="nav-item">
+              <a href="#featured" class="nav-link">Products</a>
+            </li>
+
+            <!-- 3 -->
+            <li class="nav-item">
+              <a href="#new" class="nav-link">New Arrivals</a>
+            </li>
+
+            <!-- 4 -->
+            <li class="nav-item">
+              <a href="#footer" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hamburger and ShoppingCart -->
+        <div>
+          <i class="fa-solid fa-cart-plus" id="nav-cart"></i>
+          <i class="fa-solid fa-outdent" id="nav-toggle"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="l-main">
+      <!-- Home Section -->
+      <section class="home" id="home">
+        <div class="home-container bd-grid">
+          <div class="home-data">
+            <h1 class="home-title">
+              New <br />
+              <span> ARRIVALS </span>
+            </h1>
+
+            <!-- Home Button -->
+            <a href="#featured" class="button"> Shop Now </a>
+          </div>
+
+          <!-- Home Image -->
+          <img src="/assets/img/main.png" alt="Home Image" class="home-img" />
+        </div>
+      </section>
+
+      <!-- Collection Section -->
+      <section class="collection section">
+        <div class="collection-container bd-grid">
+          <!-- 1 -->
+          <div class="collection-box">
+            <img
+              src="/assets/img/backpackMan.png"
+              alt="collection Image"
+              class="collection-img"
+            />
+
+            <div class="collection-data">
+              <h2 class="collection-title">
+                <span class="collection-subtitle"> Men's </span>
+                <br />
+                Backpack
+              </h2>
+              <a href="#" class="collection-view"> View Collection </a>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="collection-box">
+            <div class="collection-data">
+              <h2 class="collection-title">
+                <span class="collection-subtitle"> Women's </span>
+                <br />
+                Backpack
+              </h2>
+              <a href="#" class="collection-view"> View Collection </a>
+            </div>
+
+            <img
+              src="/assets/img/backpackWoman.png"
+              alt="collection Image"
+              class="collection-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Product Section -->
+      <section class="featured section" id="featured">
+        <h2 class="section-title">Featured Products</h2>
+        <a href="#" class="section-all"> View All Products </a>
+
+        <div class="featured-container bd-grid">
+          <!-- 1 -->
+          <div class="featured-product">
+            <div class="featured-box">
+              <div class="featured-new">NEW</div>
+              <img
+                src="/assets/img/feature1.png"
+                alt="featured Product Image"
+                class="featured-img"
+              />
+            </div>
+
+            <div class="featured-data">
+              <h3 class="featured-name">Headphones</h3>
+
+              <span class="featured-price">$199.99</span>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="featured-product">
+            <div class="featured-box">
+              <div class="featured-new">NEW</div>
+              <img
+                src="/assets/img/feature2.png"
+                alt="featured Product Image"
+                class="featured-img"
+              />
+            </div>
+            <div class="featured-data">
+              <h3 class="featured-name">Bluetooth Speaker</h3>
+              <span class="featured-price">$129.99</span>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="featured-product">
+            <div class="featured-box">
+              <div class="featured-new">NEW</div>
+              <img
+                src="/assets/img/feature3.png"
+                alt="featured Product Image"
+                class="featured-img"
+              />
+            </div>
+            <div class="featured-data">
+              <h3 class="featured-name">AirPods 2</h3>
+              <span class="featured-price">$149.99</span>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="featured-product">
+            <div class="featured-box">
+              <div class="featured-new">NEW</div>
+              <img
+                src="/assets/img/feature4.png"
+                alt="featured Product Image"
+                class="featured-img"
+              />
+            </div>
+            <div class="featured-data">
+              <h3 class="featured-name">Apple Watch Series 10</h3>
+              <span class="featured-price">$399</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Offer Section -->
+      <section class="offer section">
+        <div class="offer-bg">
+          <div class="offer-data">
+            <h2 class="offer-title">Special Offer</h2>
+            <p class="offer-desc">
+              Get up to 50% off on all products when you spend $100 or more.
+            </p>
+
+            <a href="#" class="button">Shop Now</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- New Arrivals Section -->
+      <section class="new section" id="new">
+        <h2 class="section-title">NEW ARRIVALS</h2>
+        <a href="#" class="section-all"> View All Products </a>
+
+        <div class="new-container bd-grid">
+          <!-- 1 -->
+          <div class="new-box">
+            <img
+              src="/assets/img/new1.png"
+              alt="new Product Image"
+              class="new-img"
+            />
+
+            <div class="new-link">
+              <a href="#" class="button">View Product</a>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="new-box">
+            <img
+              src="/assets/img/new2.png"
+              alt="new Product Image"
+              class="new-img"
+            />
+            <div class="new-link">
+              <a href="#" class="button">View Product</a>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="new-box">
+            <img
+              src="/assets/img/new3.png"
+              alt="new Product Image"
+              class="new-img"
+            />
+            <div class="new-link">
+              <a href="#" class="button">View Product</a>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="new-box">
+            <img
+              src="/assets/img/new4.png"
+              alt="new Product Image"
+              class="new-img"
+            />
+            <div class="new-link">
+              <a href="#" class="button">View Product</a>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="new-box">
+            <img
+              src="/assets/img/new5.png"
+              alt="new Product Image"
+              class="new-img"
+            />
+            <div class="new-link">
+              <a href="#" class="button">View Product</a>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="new-box">
+            <img
+              src="/assets/img/new6.png"
+              alt="new Product Image"
+              class="new-img"
+            />
+            <div class="new-link">
+              <a href="#" class="button">View Product</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NewsLetter Section -->
+      <section class="newsletter section" id="suscribe">
+        <div class="newsletter-container bd-grid">
+          <div class="newsletter-sub">
+            <h2 class="section-title">Subscribe to our Newsletter</h2>
+            <p class="newsletter-desc">
+              Sign up for our monthly newsletter and receive exclusive offers
+              and updates.
+            </p>
+
+            <form action="#" method="POST" class="newsletter-form">
+              <input
+                type="email"
+                name="email"
+                class="newsletter-input"
+                placeholder="Enter your email address"
+                required
+              />
+              <a href="#" class="button"> Subscribe </a>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sponsors Section -->
+      <section class="sponsors section">
+        <div class="sponsors-container bd-grid">
+          <!-- 1 -->
+          <div class="sponsors-logo">
+            <img
+              src="/assets/img/logo-1.png"
+              alt="Sponsor Logo"
+              class="sponsor-img"
+            />
+          </div>
+
+          <!-- 2 -->
+          <div class="sponsors-logo">
+            <img
+              src="/assets/img/logo-2.png"
+              alt="Sponsor Logo"
+              class="sponsor-img"
+            />
+          </div>
+
+          <!-- 3 -->
+          <div class="sponsors-logo">
+            <img
+              src="/assets/img/logo-3.png"
+              alt="Sponsor Logo"
+              class="sponsor-img"
+            />
+          </div>
+
+          <!-- 4 -->
+          <div class="sponsors-logo">
+            <img
+              src="/assets/img/logo-4.png"
+              alt="Sponsor Logo"
+              class="sponsor-img"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer section" id="footer">
+      <div class="footer-container bd-grid">
+        <div class="footer-box">
+          <h3 class="footer-title">Shopifyte</h3>
+          <p class="footer-app">Download App for Android & IOS</p>
+          <!-- 1 -->
+          <a href="#">
+            <img
+              src="/assets/img/footerstore1.png"
+              alt="Footer Store Image"
+              class="footer-store"
+            />
+          </a>
+
+          <!-- 2 -->
+          <a href="#">
+            <img
+              src="/assets/img/footerstore2.png"
+              alt="Footer Store Image"
+              class="footer-store"
+            />
+          </a>
+        </div>
+
+        <!-- 1 -->
+        <div class="footer-box">
+          <h3 class="footer-title">Explore</h3>
+          <ul>
+            <!-- 1 -->
+            <li>
+              <a href="#" class="footer-link">Home</a>
+            </li>
+
+            <!-- 2 -->
+            <li>
+              <a href="#" class="footer-link">Products</a>
+            </li>
+
+            <!-- 3 -->
+            <li>
+              <a href="#" class="footer-link">New Arrivals</a>
+            </li>
+
+            <!-- 4 -->
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 2 -->
+        <div class="footer-box">
+          <h3 class="footer-title">Contact</h3>
+          <ul>
+            <!-- 1 -->
+            <li>
+              <a href="#" class="footer-link">Email: info@shopifyte.com</a>
+            </li>
+
+            <!-- 2 -->
+            <li>
+              <a href="#" class="footer-link">Phone: +1 123 456 7890</a>
+            </li>
+
+            <!-- 3 -->
+            <li>
+              <a href="#" class="footer-link"
+                >Address: 123 Main St, Anytown, USA</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- 3 -->
+        <div class="footer-box">
+          <h3 class="footer-title">Stay Connected</h3>
+          <!-- 1 -->
+          <a href="" class="footer-social">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+
+          <!-- 2 -->
+          <a href="" class="footer-social">
+            <i class="fab fa-twitter"></i>
+          </a>
+
+          <!-- 3 -->
+          <a href="" class="footer-social">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <!-- 4 -->
+          <a href="" class="footer-social">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+
+      <p class="copyright">
+        Copyright &copy; 2024 Shopifyte. All rights reserved.
+      </p>
+    </footer>
+
+    <!-- Scroll Up Button -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
