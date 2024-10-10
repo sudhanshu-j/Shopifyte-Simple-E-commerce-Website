@@ -4,7 +4,7 @@ Shopifyte is a simple yet elegant e-commerce website built using HTML, CSS, and 
 
 ## Live Demo
 
-[Live Demo](https://tinyurl.com/2s3u8pmv)
+🔴 [Live Demo](https://tinyurl.com/2s3u8pmv)
 
 ## Table of Contents
 
