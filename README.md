@@ -111,7 +111,7 @@ Shopifyte is a simple yet elegant e-commerce website built using HTML, CSS, and 
 
 - **Clone the repository**:
 
-     - git clone https://github.com/your-repository/Shopifyte---Simple-E-commerce-Website.git
+     - git clone https://github.com/sudhanshu-j/Shopifyte---Simple-E-commerce-Website.git
 
 - **Open the project**:
 
